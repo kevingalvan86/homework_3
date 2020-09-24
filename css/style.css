@@ -48,6 +48,7 @@ a{
 table{
   border-collapse: collapse;
   margin: auto;
+  border: 2px solid black;
 
 }
 
@@ -85,9 +86,15 @@ tr:nth-child(2n+2){
 }
 
 thead tr:first-child th:first-child{
-  font-size: 40px;
-}
+  /* for the Position cell */
+  border-top-left-radius: 10px;
 
+}
+thead tr:last-child th:last-child{
+  /* for the Position cell */
+  border-top-right-radius: 10px;
+
+}
 footer{
   width:100%;
   background:#000000;
