@@ -55,6 +55,7 @@ table{
   color: #FFFFFF;
   text-align: center;
   margin: auto;
+  vertical-align: middle;
   min-width: 125px;
   padding: 10px;
 
@@ -62,15 +63,13 @@ table{
 
 .rowhead{
   border-style: solid;
-  border-top: black;
-  border-width: 2px;
-  
+  border: 2px solid black;
+  text-align: center;
 
 }
 td{
   text-align: center;
-  border-top: black;
-  border-width: 2px;
+  border-top: 2px solid black;
   padding: 10px;
 }
 
