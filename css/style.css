@@ -76,6 +76,7 @@ td{
 
 tr:nth-child(2n+2){
     background-color: #D1D1D1;
+    border: 2px solid black;
 }
 
 *{
