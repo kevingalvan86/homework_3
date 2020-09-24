@@ -16,9 +16,8 @@ body{
   font-family: 'Andika', sans-serif;
   background-size: cover ;
   background-position: center;
-  background-image: url("https://github.com/kevingalvan86/homework_3/blob/master/images/pigeon-background.JPEG");
+  background-image: url("images/pigeon-background.JPEG");
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 main{
