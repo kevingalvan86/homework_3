@@ -9,12 +9,16 @@ Make sure to learn what the starter code does!!
 */
 
 body{
+  background: #DDDDDD;
   color: #000000;
   font-size: 16px;
   margin: 1.2em;
   font-family: 'Andika', sans-serif;
   background-size: cover ;
   background-position: center;
+  background-image: "/images/pigeon-background.JPEG";
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 main{
@@ -24,6 +28,8 @@ main{
 h1{
   color: #c12258;
   font-size: 2em;
+  text-align: center;
+  line-height: 2;
 }
 
 caption{
@@ -31,10 +37,12 @@ caption{
 }
 
 p{
+  padding-top: 15px;
 
 }
 
 a{
+  color: #c12258
 
 }
 
