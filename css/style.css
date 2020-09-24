@@ -62,6 +62,8 @@ table{
 
 .rowhead{
   border-style: solid;
+  border-top: black;
+  border-width: 2px;
   
 
 }
