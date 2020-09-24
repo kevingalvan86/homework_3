@@ -47,6 +47,7 @@ a{
 
 table{
   border-collapse: collapse;
+  margin: auto;
 
 }
 
@@ -56,6 +57,7 @@ table{
   text-align: center;
   margin: auto;
   vertical-align: middle;
+  
   min-width: 125px;
   padding: 10px;
 
@@ -71,11 +73,11 @@ td{
   text-align: center;
   border-top: 2px solid black;
   padding: 10px;
+  vertical-align: middle;
 }
 
 tr:nth-child(2n+2){
     background-color: #D1D1D1;
-    border: 2px solid black;
 }
 
 *{
