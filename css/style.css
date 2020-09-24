@@ -84,7 +84,9 @@ tr:nth-child(2n+2){
 
 }
 
-thead tr:first-child th:first-child{}
+thead tr:first-child th:first-child{
+  font-size: 40px;
+}
 
 footer{
   width:100%;
