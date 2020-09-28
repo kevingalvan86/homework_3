@@ -41,12 +41,14 @@ p{
 }
 
 a{
-  color: #c12258
+  color: #c12258;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
 
 }
 
 table{
-  border-collapse: collapse;
+  border-collapse: separate;
   margin: auto;
   border: 2px solid black;
   border-radius: 10px;
@@ -66,7 +68,9 @@ table{
 
 .rowhead{
   border-style: solid;
-  border: 2px solid black;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
   text-align: center;
 
 }
@@ -81,7 +85,11 @@ tr:nth-child(2n+2){
     background-color: #D1D1D1;
 }
 
-*{
+*:focus{
+  border: 3px dashed #417243;
+}
+tr:hover{
+  background: rgba(126, 8, 32, .25)
 
 }
 
@@ -106,5 +114,8 @@ footer{
   background:#000000;
   text-align:center;
   color: #FFFFFF;
+  min-height: 75px;
+  position: absolute;
+  bottom: 0;
 }
 
