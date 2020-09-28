@@ -41,7 +41,7 @@ p{
 }
 
 a{
-  color: #c12258;
+  color:#B21F50;
   text-decoration-line: underline;
   text-decoration-style: wavy;
 
@@ -55,12 +55,12 @@ table{
 }
 
 .colhead{
-  background-color: #7e0830;
+  background-color:#7e0820;
   color: #FFFFFF;
   text-align: center;
   margin: auto;
   vertical-align: middle;
-  
+  text-transform: uppercase;
   min-width: 125px;
   padding: 10px;
 
@@ -114,7 +114,7 @@ footer{
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left:0
 }
